@@ -13,5 +13,7 @@ namespace HelloService
     {
         [OperationContract]
         string GetMessage(string Name);
+        [OperationContract]
+        int calculateDays(int day, int Month, int year);
     }
 }
